@@ -13,11 +13,10 @@
 | Nama Ketua | 265150... | @username1 | Setup repo, kerangka menu, & fitur Create |
 | Nama Anggota 1 | 265150... | @username2 | Fitur Read & Search |
 | Nama Anggota 2 | 265150... | @username3 | Fitur Update, Delete, & Laporan |
-=======
 # PROJEK-UAS-PEMDAS
 Ringkasan Capaian Progress 1:
 - Repository Public aktif dengan struktur awal (.gitignore, tsconfig.json, package.json, src/index.ts) dan program "Hello console" dapat dijalankan semua anggota.
 - README.md awal berisi daftar anggota, akun GitHub, dan tabel pembagian tugas.
 - Proposal & analisis awal (Bagian A) telah diunggah pada docs/ atau README.md.
 - Draft laporan (Sampul, 1.1, 1.2 awal, rencana 3.2) tersimpan di docs/ pada branch main.
->>>>>>> 13442b564ce35423287786121870f023a06c7758
+
