@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Proyek UAS Pemrograman Dasar - [Peminjaman Buku erpustakaan
+# Proyek UAS Pemrograman Dasar - [Peminjaman Buku perpustakaan
 ]
 
 ## Anggota Tim
