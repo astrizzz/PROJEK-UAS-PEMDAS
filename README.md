@@ -6,7 +6,7 @@
 - **Ketua:** Astri Nur Fadjriyah (26314070711096) - @astrizzz
 - **Anggota 1:** Annisa Dwindah Sari (263140707111082) - @adwindahsari - alt
 - **Anggota 2:** Nadeen Shakila Putri Marasabessy (26314070711096) - @@nadeenshakila12-spec
-
+ 
 ## Pembagian Tugas
 | Nama | NIM | Akun GitHub | Fitur / Bagian Kode yang Dikerjakan |
 | :--- | :--- | :--- | :--- |
@@ -15,5 +15,9 @@
 | Nama Anggota 2 | 265150... | @username3 | Fitur Update, Delete, & Laporan |
 =======
 # PROJEK-UAS-PEMDAS
-oke kopjay enakk
+Ringkasan Capaian Progress 1:
+- Repository Public aktif dengan struktur awal (.gitignore, tsconfig.json, package.json, src/index.ts) dan program "Hello console" dapat dijalankan semua anggota.
+- README.md awal berisi daftar anggota, akun GitHub, dan tabel pembagian tugas.
+- Proposal & analisis awal (Bagian A) telah diunggah pada docs/ atau README.md.
+- Draft laporan (Sampul, 1.1, 1.2 awal, rencana 3.2) tersimpan di docs/ pada branch main.
 >>>>>>> 13442b564ce35423287786121870f023a06c7758
