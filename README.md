@@ -1,2 +1,2 @@
 # PROJEK-UAS-PEMDAS
-oke kopjay enak
+oke kopjay enakk
