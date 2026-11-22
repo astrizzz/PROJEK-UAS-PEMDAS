@@ -1,10 +1,11 @@
 <<<<<<< HEAD
-# Proyek UAS Pemrograman Dasar - [Pesan Kamar ]
+# Proyek UAS Pemrograman Dasar - [Peminjaman Buku erpustakaan
+]
 
 ## Anggota Tim
-- **Ketua:** Nadeen Shakila Putri Marasabessy (26314070711096) - @username_github
+- **Ketua:** Astri Nur Fadjriyah (26314070711096) - @astrizzz
 - **Anggota 1:** Annisa Dwindah Sari (263140707111082) - @adwindahsari - alt
-- **Anggota 2:** Astri Nur Fadjriyah (263140707111107) - @astrizzz
+- **Anggota 2:** Nadeen Shakila Putri Marasabessy (26314070711096) - @@nadeenshakila12-spec
 
 ## Pembagian Tugas
 | Nama | NIM | Akun GitHub | Fitur / Bagian Kode yang Dikerjakan |
