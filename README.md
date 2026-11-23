@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 === PENGUMPULAN PROGRESS 1 — UAS PEMROGRAMAN DASAR ===
 Kelas / Kelompok   : T1H / Kelompok 9 -[NN]
 Judul / Tema       : [Peminjaman Buku di Perpustakaan]
