@@ -1,4 +1,4 @@
-=== PENGUMPULAN PROGRESS 1 — UAS PEMROGRAMAN DASAR ===
+PENGUMPULAN PROGRESS 1 — UAS PEMROGRAMAN DASAR 
 Kelas / Kelompok   : T1H / Kelompok 9 -[NN]
 Judul / Tema       : [Peminjaman Buku di Perpustakaan]
 Link Repo Public   : https://github.com/[astrizzz]/[UAS-PEMOGRAMAN-DASAR-TIH-KELOMPOK9]
