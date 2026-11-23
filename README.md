@@ -9,6 +9,13 @@ Daftar Anggota & Akun GitHub:
 2. [Annisa Dwindah Sari] - [263140707111082] (@[dwisa301-cyber])
 3. [Nadeen Shakila Putri Marasabessy] - [26314070711096] (@[nadeenshakila12-spec])  
 
+## Pembagian Tugas
+| Nama | NIM | Akun GitHub | Fitur / Bagian Kode yang Dikerjakan |
+| :--- | :--- | :--- | :--- |
+| Astri Nur Fadjriyah | 263140707111107 | @astrizzz | Setup repo, kerangka menu, & fitur Create |
+| Annisa Dwindah Sari | 263140707111082 | @username2 | Fitur Read & Search |
+| Nadeen Shakila Putri Marasabessy | 26314070711096 | @nadeenshakila12-spec | Fitur Update & Delete |
+
 # PROJEK-UAS-PEMDAS
 Ringkasan Capaian Progress 1:
 - Repository Public aktif dengan struktur awal (.gitignore, tsconfig.json, package.json, src/index.ts) dan program "Hello console" dapat dijalankan semua anggota.
