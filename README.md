@@ -12,7 +12,7 @@ Daftar Anggota & Akun GitHub:
 | Nama | NIM | Akun GitHub | Fitur / Bagian Kode yang Dikerjakan |
 | :--- | :--- | :--- | :--- |
 | Astri Nur Fadjriyah | 263140707111107 | @astrizzz | Setup repo, kerangka menu, & fitur Create |
-| Annisa Dwindah Sari | 263140707111082 | @username2 | Fitur Read & Search |
+| Annisa Dwindah Sari | 263140707111082 | @dwisa301-cyber | Fitur Read & Search |
 | Nadeen Shakila Putri Marasabessy | 26314070711096 | @nadeenshakila12-spec | Fitur Update & Delete |
 
 # PROJEK-UAS-PEMDAS
