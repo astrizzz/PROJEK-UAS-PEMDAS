@@ -7,7 +7,7 @@ Link Repo Public   : https://github.com/[astrizzz]/[UAS-PEMOGRAMAN-DASAR-TIH-KEL
 
 Daftar Anggota & Akun GitHub:
 1. [Astri Nur Fadjriyah] - [263140707111107] (@[astrizzz])
-2. [Annisa Dwindah Sari] - [263140707111082] (@[dwisa301-cyber])
+2. [Annisaa Dwindah Sari] - [263140707111082] (@[dwisa301-cyber])
 3. [Nadeen Shakila Putri Marasabessy] - [263140707111096] (@[nadeenshakila12-spec])  
 
 ## Pembagian Tugas
