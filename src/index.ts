@@ -1,6 +1,6 @@
-import { daftarPeminjaman, hitungTotalBuku, hitungRataRataBuku, tambahPeminjaman } from './peminjaman';
-import { hitungTotalStok } from './stok';
 import { tanya, tutupInput, tampilSemuaData, tampilkanMenu, belumTersedia } from './tampilan';
+import { daftarPeminjaman, tambahPeminjaman, hitungTotalBuku, hitungRataRataBuku } from './peminjaman';
+import { dataStok } from './stok';
 
 // Menu utama berulang sampai pengguna memilih keluar (while + switch)
 async function menuUtama(): Promise<void> {
@@ -12,14 +12,16 @@ async function menuUtama(): Promise<void> {
       case '1':
         await tambahPeminjaman();
         break;
-      case '2':
+      case '2': {
+        const totalStok = dataStok.akademik + dataStok.novel + dataStok.teknologi; // jumlah seluruh stok
         tampilSemuaData(
           daftarPeminjaman,
           hitungTotalBuku(daftarPeminjaman),
           hitungRataRataBuku(daftarPeminjaman),
-          hitungTotalStok()
+          totalStok
         );
         break;
+      }
       case '3':
         belumTersedia('Ubah peminjaman');
         break;
@@ -41,4 +43,4 @@ async function menuUtama(): Promise<void> {
 }
 
 // Titik masuk program
-menuUtama();
+menuUtama(); 

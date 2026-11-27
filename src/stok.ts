@@ -1,11 +1,4 @@
-import type { KategoriBuku } from './peminjaman';
-
-// Struktur stok buku per kategori
-export interface StokBuku {
-  akademik: number;
-  novel: number;
-  teknologi: number;
-}
+import type { KategoriBuku, StokBuku } from './peminjaman';
 
 // Stok awal per kategori, sudah dikurangi buku pada data seed
 export const dataStok: StokBuku = {
@@ -22,11 +15,6 @@ export function cekStokCukup(kategori: KategoriBuku, jumlah: number): boolean {
 // Mengurangi stok kategori setelah peminjaman berhasil (operator compound -=)
 export function kurangiStok(kategori: KategoriBuku, jumlah: number): void {
   dataStok[kategori] -= jumlah;
-}
-
-// Menghitung jumlah seluruh stok semua kategori (operator aritmatika +)
-export function hitungTotalStok(): number {
-  return dataStok.akademik + dataStok.novel + dataStok.teknologi;
 }
 
 // Menampilkan peringatan jika stok habis atau menipis

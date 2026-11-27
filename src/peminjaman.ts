@@ -15,6 +15,13 @@ export interface Peminjaman {
   lamaPinjam: number;     // lama peminjaman dalam hari
 }
 
+// Struktur stok buku per kategori
+export interface StokBuku {
+  akademik: number;
+  novel: number;
+  teknologi: number;
+}
+
 // Tarif denda per hari keterlambatan (nilai tetap, rupiah)
 export const TARIF_DENDA_PER_HARI: number = 1000;
 
@@ -29,13 +36,6 @@ export const daftarPeminjaman: Peminjaman[] = [
 
 // ID berikutnya yang akan dipakai (berubah tiap ada data baru)
 let idBerikutnya: number = 6;
-
-// Mengambil ID baru lalu menaikkan penghitung (operator compound +=)
-export function buatIdBaru(): number {
-  const id = idBerikutnya;
-  idBerikutnya += 1;
-  return id;
-}
 
 // Menentukan jenis anggota dan batas pinjam (switch dengan 3 case + default)
 export function tentukanJenisAnggota(pilihan: number): { jenis: string; batas: number } {
@@ -99,7 +99,7 @@ export function hitungTotalBuku(daftar: Peminjaman[]): number {
   return total;
 }
 
-// Menghitung denda keterlambatan (operator aritmatika * dan compound *=)
+// Menghitung denda keterlambatan (operator aritmatika *)
 export function hitungDenda(hariTerlambat: number, tarifPerHari: number): number {
   let denda = hariTerlambat * tarifPerHari;
   if (hariTerlambat > 7) {
@@ -143,6 +143,7 @@ export async function tambahPeminjaman(): Promise<void> {
   const pilihanKategori = Number(await tanya('Masukkan pilihan (1/2/3): '));
   const kategori = tentukanKategori(pilihanKategori);
   const jumlahBuku = Number(await tanya('Jumlah buku yang dipinjam: '));
+
   const kodeBuku = kategori.kode; // kode kategori hasil switch
 
   // Validasi kelayakan, cek stok, simpan data, dan cetak nota (nested if sampai tingkat 4)
@@ -151,7 +152,7 @@ export async function tambahPeminjaman(): Promise<void> {
       if (cekStokCukup(kodeBuku, jumlahBuku)) {
         kurangiStok(kodeBuku, jumlahBuku); // kurangi stok kategori
         const dataBaru: Peminjaman = {
-          id: buatIdBaru(),
+          id: idBerikutnya,
           nama: nama,
           statusAktif: true,
           jenisAnggota: jenis.jenis,
@@ -160,6 +161,7 @@ export async function tambahPeminjaman(): Promise<void> {
           lamaPinjam: kategori.lama,
         };
         daftarPeminjaman.push(dataBaru); // simpan ke array
+        idBerikutnya += 1;               // siapkan ID berikutnya
         cetakNota(dataBaru, dataStok[kodeBuku], hitungDenda(1, TARIF_DENDA_PER_HARI));
         if (pilihanKategori === 3) {
           console.log('Tips: Jaga buku teknologi agar tidak rusak.');
